@@ -1,0 +1,6 @@
+framework module LTGameSDKUIYXLHW {
+  umbrella header "LTGameSDKUIYXLHW.h"
+
+  export *
+  module * { export * }
+}
