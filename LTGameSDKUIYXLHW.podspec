@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "LTGameSDKUIYXLHW"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "This is a SDK UI of LTGameSDKUIYXLHW."
   spec.description  = "Like this you can get LTGameSDKcore and use it."
   spec.homepage     = "https://github.com/zhubinfeng/LTGameSDKUIYXLHW"
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.source       = { :git => "https://github.com/zhubinfeng/LTGameSDKUIYXLHW.git", :tag => "#{spec.version}" }
   spec.source_files  = "LTGameSDKUIYXLHW/LTGameSDKUIYXLHW.framework/Headers/*.{h}"
-  spec.vendored_frameworks = 'LTGameSDKUIYXLHW/LTGameSDK.framework'
+  spec.vendored_frameworks = 'LTGameSDKUIYXLHW/LTGameSDKUIYXLHW.framework'
   spec.resource  = "LTGameSDKUIYXLHW/LTResource.bundle"
   spec.framework  = "Foundation", "UIKit"
 
