@@ -18,7 +18,7 @@ typedef void (^loginUIUserBlock)(LTUser *loginUser);
 
 -(void)linkOfUserAgreement:(NSString *)userAgreement andPrivacyLine:(NSString *)privacy;
 
--(void)showLoginUI:(UIViewController *)uc withBlock:(loginUIUserBlock)block;
+-(void)showLoginUI:(UIViewController *)uc withBlock:(loginUIUserBlock)block showTourist:(BOOL)isTourist;
 
 -(void)userLogoutWithUI:(UIViewController *)uc withBlock:(loginUIUserBlock)block;
 @end
